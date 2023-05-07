@@ -41,13 +41,6 @@ html{
   background-size: contain;
   image-rendering: crisp-edges;
   background-position: 50% 50%;
-
-
-  /* background-image: url("https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg?auto=compress&cs=tinysrgb&w=300");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 .bt{
   background-image: url("https://images.pexels.com/photos/2566581/pexels-photo-2566581.jpeg?auto=compress&cs=tinysrgb&w=300");
