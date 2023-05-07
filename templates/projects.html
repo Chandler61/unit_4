@@ -1,0 +1,17 @@
+<div>
+    <table class="table table-bordered">
+        <th>Project Name</th>
+        <th>Description</th>
+        <th>Completed?</th>
+        <th>Team</th>
+        {% for project in projects %}
+            <tr>
+                <td>{{ project.project_name }}&emsp;</td>
+                <td>{{ project.description }}&emsp;</td>
+                <td>{{ project.completed }}&emsp;</td>
+                <td>{{ project.team.team_name }}&emsp;</td>
+                <br>
+            </tr>
+            {% endfor %}
+        </table>
+</div>
